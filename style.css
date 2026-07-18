@@ -17,6 +17,23 @@ header{
     color: white;
 }
 
+header > h1{
+    margin: 10px;
+    padding: 10px
+}
+
+header > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+header > a:hover{
+    color: white;
+    background-color: #bd4234e3;
+}
+
 main>section{
     padding: 100px 0px;
 }
@@ -25,6 +42,13 @@ main>section{
     background-image:url(imagens/marte_size.avif);
     text-align: center;
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero > h2{
+    padding: 10px;
+    font-size: 3em;
 }
 
 footer{
