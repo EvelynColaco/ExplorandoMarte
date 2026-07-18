@@ -35,7 +35,7 @@ header > a:hover{
 }
 
 main>section{
-    padding: 100px 0px;
+    padding: 70px 0px;
 }
 
 #hero{
@@ -56,3 +56,13 @@ footer{
     background-color: black;
     color: white;
 }
+
+main h2{
+    padding: 10px;
+}
+
+main p{
+    padding: 10px;
+    text-indent: 10px ;
+}
+
