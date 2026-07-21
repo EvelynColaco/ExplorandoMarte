@@ -44,17 +44,12 @@ main>section{
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 #hero > h2{
     padding: 10px;
     font-size: 3em;
-}
-
-footer{
-    text-align: center;
-    background-color: black;
-    color: white;
 }
 
 main h2{
@@ -64,5 +59,21 @@ main h2{
 main p{
     padding: 10px;
     text-indent: 10px ;
+}
+
+#parallax{
+    background-image: url(imagens/universo_fixed.webp); /*Trocar por uma imagem com uma qualidade melhor*/
+    color: white;
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
