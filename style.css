@@ -22,14 +22,14 @@ header > h1{
     padding: 10px
 }
 
-header > a{
+nav > a{
     color: white;
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
 }
 
-header > a:hover{
+nav > a:hover{
     color: white;
     background-color: #bd4234e3;
 }
